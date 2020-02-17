@@ -1,6 +1,8 @@
 # Count Down In Sweet Alert 2
+
 <img src="CountDown.png"/>
 
+```javascript
 $(document).ready(function(){
 		Swal.fire({
 			title: 'تایمر',
@@ -18,3 +20,4 @@ options : {
       wholeTime: 2 * 60, // secends
      	clockWise : true
 }
+```
